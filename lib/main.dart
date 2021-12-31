@@ -1,4 +1,5 @@
 import 'package:e_commerce_app/features/login/view.dart';
+import 'package:e_commerce_app/features/otp/view.dart';
 import 'package:e_commerce_app/features/signup/view.dart';
 import 'package:e_commerce_app/features/splash/view.dart';
 import 'package:flex_color_scheme/flex_color_scheme.dart';
@@ -16,9 +17,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      home: SplashView(),
+      // home: SplashView(),
       // home: LoginView(),
       // home: SignupView(),
+      home: OtpView(),
     );
   }
 }

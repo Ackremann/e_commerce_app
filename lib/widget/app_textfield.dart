@@ -39,7 +39,7 @@ class AppTextField extends StatelessWidget {
               //Do something wi
             },
             keyboardType: keyboardType,
-            style: const TextStyle(fontSize: 14, color: Colors.black),
+            style: const TextStyle(fontSize: 12, color: Colors.black),
             decoration: InputDecoration(
               label: Text(label),
               labelStyle: const TextStyle(color: Colors.black),
