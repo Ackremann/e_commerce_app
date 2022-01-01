@@ -17,10 +17,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      // home: SplashView(),
+      home: SplashView(),
       // home: LoginView(),
       // home: SignupView(),
-      home: OtpView(),
+      // home: OtpView(),
     );
   }
 }

@@ -14,7 +14,16 @@ class GetStatredBu extends StatelessWidget {
           ),
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(20))),
-      onPressed: () {},
+      onPressed: () async {
+        await Navigator.of(context).push(
+          MaterialPageRoute(
+            fullscreenDialog: true,
+            builder: (context) {
+              return SignupView();
+            },
+          ),
+        );
+      },
       child: Text(
         'Get Started',
         style: TextStyle(

@@ -1,6 +1,7 @@
 import 'package:e_commerce_app/const/colors/colors.dart';
 
 import 'package:e_commerce_app/features/login/view.dart';
+import 'package:e_commerce_app/features/signup/view.dart';
 
 import 'package:flutter/material.dart';
 part 'units/logo.dart';
