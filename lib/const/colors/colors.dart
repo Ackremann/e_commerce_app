@@ -11,6 +11,14 @@ Gradient? gradient = const LinearGradient(
     Color(0xffFF1161),
   ],
 );
+Gradient? gradient2 = const LinearGradient(
+  begin: Alignment.centerLeft,
+  end: Alignment.centerRight,
+  colors: [
+    Color(0xffFF5B55),
+    Color(0xffFF1161),
+  ],
+);
 Decoration decoration = const BoxDecoration(
   color: Colors.white,
   borderRadius: BorderRadius.only(
