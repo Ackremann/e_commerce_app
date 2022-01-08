@@ -4,14 +4,13 @@ class RamniIcons {
   static final drawerIcons = [
     Image.asset(
       'assets/icons/drawer/home.png',
-      // width: 15,
-      // height: 15,
-      scale: 2,
+      width: 20,
+      height: 20,
     ),
     Image.asset(
       'assets/icons/drawer/shopping-cart.png',
-      width: 15,
-      height: 15,
+      width: 20,
+      height: 20,
     ),
     Image.asset(
       'assets/icons/drawer/package.png',

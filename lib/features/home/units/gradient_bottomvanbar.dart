@@ -6,12 +6,9 @@ Widget _GradientBottomNavBar() {
       gradient: gradient2,
     ),
     child: BottomNavigationBar(
-      selectedLabelStyle: TextStyle(
-        fontSize: 10,
-        fontWeight: FontWeight.bold,
-        color: Colors.white,
-      ),
-      currentIndex: 1,
+      selectedLabelStyle: TextStyle(fontWeight: FontWeight.w900),
+      selectedItemColor: Colors.white,
+      currentIndex: 0,
       showUnselectedLabels: false,
       backgroundColor: Colors.transparent,
       type: BottomNavigationBarType.fixed,
@@ -25,7 +22,7 @@ Widget _GradientBottomNavBar() {
             width: 20,
             height: 20,
           ),
-          label: '0',
+          label: '.',
         ),
         BottomNavigationBarItem(
           icon: Image.asset(
@@ -33,7 +30,7 @@ Widget _GradientBottomNavBar() {
             width: 20,
             height: 20,
           ),
-          label: '0',
+          label: '.',
         ),
         BottomNavigationBarItem(
           icon: Image.asset(
