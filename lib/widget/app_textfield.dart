@@ -3,11 +3,15 @@ import 'package:flutter/material.dart';
 
 class AppTextField extends StatelessWidget {
   const AppTextField(
-      {Key? key, required this.keyboardType, required this.label})
+      {Key? key, required this.keyboardType, required this.label,required this.onSaved,required this.validator})
       : super(key: key);
 
   final TextInputType? keyboardType;
   final String label;
+  final void Function(String?)? onSaved;
+  final String? Function(String?)? validator;
+  
+
 
   @override
   Widget build(BuildContext context) {
@@ -33,19 +37,17 @@ class AppTextField extends StatelessWidget {
               ),
             ],
           ),
-          child: TextField(
-            // controller: inputController,
-            onChanged: (value) {
-              //Do something wi
-            },
+          child: TextFormField(
+            onSaved: onSaved,
+            validator: validator,
+            
+            
             keyboardType: keyboardType,
             style: const TextStyle(fontSize: 12, color: Colors.black),
             decoration: InputDecoration(
               label: Text(label),
               labelStyle: const TextStyle(color: Colors.black),
 
-              // filled: true,
-              // fillColor: ramni,
 
               contentPadding:
                   const EdgeInsets.symmetric(vertical: 0.0, horizontal: 20.0),

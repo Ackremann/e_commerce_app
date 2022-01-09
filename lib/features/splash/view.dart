@@ -1,4 +1,6 @@
 import 'package:e_commerce_app/const/colors/colors.dart';
+import 'package:e_commerce_app/core/routes/magic_router.dart';
+import 'package:e_commerce_app/core/routes/routes.dart';
 
 import 'package:e_commerce_app/features/login/view.dart';
 import 'package:e_commerce_app/features/signup/view.dart';
@@ -7,6 +9,8 @@ import 'package:flutter/material.dart';
 part 'units/logo.dart';
 part 'units/get_started.dart';
 part 'units/signin_splash_button.dart';
+
+
 
 class SplashView extends StatelessWidget {
   SplashView({Key? key}) : super(key: key);

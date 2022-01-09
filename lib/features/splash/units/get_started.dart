@@ -14,15 +14,8 @@ class GetStatredBu extends StatelessWidget {
           ),
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(20))),
-      onPressed: () async {
-        await Navigator.of(context).push(
-          MaterialPageRoute(
-            fullscreenDialog: true,
-            builder: (context) {
-              return SignupView();
-            },
-          ),
-        );
+      onPressed: () {
+        MagicRouter.navigateAndPopAll(SignupView());
       },
       child: Text(
         'Get Started',

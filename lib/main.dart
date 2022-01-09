@@ -1,4 +1,5 @@
 import 'package:e_commerce_app/const/apptheme.dart';
+import 'package:e_commerce_app/core/routes/magic_router.dart';
 import 'package:e_commerce_app/features/home/view.dart';
 import 'package:e_commerce_app/features/login/view.dart';
 import 'package:e_commerce_app/features/otp/view.dart';
@@ -26,7 +27,11 @@ class MyApp extends StatelessWidget {
       // home: SignupView(),
       // home: OtpView(),
       // home: WelcomeView(),
-      home: HomeView(),
+      // home: HomeView(),
+      // initialRoute: RouteManager.splashView,
+      navigatorKey: navigatorKey,
+      onGenerateRoute: onGenerateRoute,
+      home: SplashView(),
     );
   }
 }

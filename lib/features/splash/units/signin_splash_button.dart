@@ -10,15 +10,8 @@ class SignInSplashButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextButton(
-      onPressed: () async {
-        await Navigator.of(context).push(
-          MaterialPageRoute(
-            fullscreenDialog: true,
-            builder: (context) {
-              return LoginView();
-            },
-          ),
-        );
+      onPressed: () {
+        MagicRouter.navigateAndPopAll(LoginView());
       },
       child: const Text(
         'SIGN IN',
