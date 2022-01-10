@@ -3,7 +3,7 @@ import 'package:e_commerce_app/const/responsive.dart';
 import 'package:e_commerce_app/features/login/units/sign_in_bu.dart';
 import 'package:e_commerce_app/widget/app_textfield.dart';
 import 'package:e_commerce_app/widget/button_1.dart';
-import 'package:e_commerce_app/widget/grediant_button.dart';
+import 'package:e_commerce_app/widget/gradient_button.dart';
 import 'package:flutter/material.dart';
 part 'units/logologin.dart';
 // part 'units/username_field.dart';

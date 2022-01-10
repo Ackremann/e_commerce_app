@@ -1,4 +1,4 @@
-import 'package:e_commerce_app/widget/grediant_button.dart';
+import 'package:e_commerce_app/widget/gradient_button.dart';
 import 'package:flutter/material.dart';
 
 class SignInButton extends StatelessWidget {

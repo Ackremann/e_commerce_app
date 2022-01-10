@@ -4,7 +4,7 @@ import 'package:e_commerce_app/core/validator/validator.dart';
 import 'package:e_commerce_app/features/signup/cubit.dart';
 import 'package:e_commerce_app/features/signup/states.dart';
 import 'package:e_commerce_app/widget/app_textfield.dart';
-import 'package:e_commerce_app/widget/grediant_button.dart';
+import 'package:e_commerce_app/widget/gradient_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 part 'units/logo.dart';

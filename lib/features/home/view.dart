@@ -1,7 +1,7 @@
 import 'package:e_commerce_app/const/colors/colors.dart';
 import 'package:e_commerce_app/const/icons/drawer_icons.dart';
 import 'package:e_commerce_app/const/responsive.dart';
-import 'package:e_commerce_app/widget/grediant_button.dart';
+import 'package:e_commerce_app/widget/gradient_button.dart';
 import 'package:e_commerce_app/widget/product_card.dart';
 import 'package:e_commerce_app/widget/search_bar.dart';
 import 'package:flutter/material.dart';

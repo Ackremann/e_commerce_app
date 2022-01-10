@@ -1,5 +1,5 @@
 import 'package:e_commerce_app/const/colors/colors.dart';
-import 'package:e_commerce_app/widget/grediant_button.dart';
+import 'package:e_commerce_app/widget/gradient_button.dart';
 import 'package:flutter/material.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 part 'units/otplogo.dart';
